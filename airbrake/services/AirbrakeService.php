@@ -9,7 +9,7 @@
  * @author    Chris Southam
  * @copyright Copyright (c) 2017 Chris Southam
  * @link      http://www.csoutham.com
- * @package   Craft-Airbrake
+ * @package   CraftCMS-Airbrake
  * @since     1.0.0
  */
 
