@@ -1,0 +1,13 @@
+{
+	"name": "csoutham/craft-airbrake",
+	"description": "Craft CMS Plugin that allows you to log errors/exceptions in Craft to Airbrake.",
+	"authors": [
+		{
+			"name": "Chris Southam",
+			"email": "me@csoutham.com"
+		}
+	],
+	"require": {
+		"airbrake/phpbrake": "^0.3.1"
+	}
+}
