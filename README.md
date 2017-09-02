@@ -26,7 +26,7 @@ Airbrake's cross platform error monitoring automatically detects crashes in your
 ## Using Airbrake
 
 It will automatically log most exceptions/errors.
-If you want to log a exception/error from an custom plugin, you can use one of the two service methods:
+If you want to log a exception/error from an custom plugin, you can use this service methods:
 
 - `craft()->airbrake->notify();`
 
@@ -36,4 +36,4 @@ If you want to log a exception/error from an custom plugin, you can use one of t
 
 * Initial release
 
-Brought to you by [Chris Southam](http://www.csoutham.com)
+Brought to you by [Chris Southam](http://www.csoutham.com) with thanks to [Fred Carlsen](http://sjelfull.no).
