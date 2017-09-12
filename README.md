@@ -30,10 +30,4 @@ If you want to log a exception/error from an custom plugin, you can use this ser
 
 - `craft()->airbrake->notify();`
 
-## Airbrake Changelog
-
-### 1.0.0 -- 2017.09.01
-
-* Initial release
-
 Brought to you by [Chris Southam](http://www.csoutham.com) with thanks to [Fred Carlsen](http://sjelfull.no).
