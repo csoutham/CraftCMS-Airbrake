@@ -10,7 +10,7 @@
  * @copyright Copyright (c) 2017 Chris Southam
  * @link      http://www.csoutham.com
  * @package   CraftCMS-Airbrake
- * @since     1.0.0
+ * @since     1.0.1
  */
 
 
@@ -77,7 +77,7 @@ class AirbrakePlugin extends BasePlugin
 	 */
 	public function getVersion()
 	{
-		return '1.0.0';
+		return '1.0.1';
 	}
 	
 	

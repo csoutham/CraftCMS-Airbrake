@@ -10,7 +10,7 @@
  * @copyright Copyright (c) 2017 Chris Southam
  * @link      http://www.csoutham.com
  * @package   CraftCMS-Airbrake
- * @since     1.0.0
+ * @since     1.0.1
  */
 
 
@@ -34,7 +34,7 @@ class AirbrakeService extends BaseApplicationComponent
 		require_once __DIR__ . '/../vendor/autoload.php';
 		
 		
-		$environment = craft()->config->get('environment', 'airbrake') ?? CRAFT_ENVIRONMENT;
+		$environment = isset(craft()->config->get('environment', 'airbrake')) ? craft()->config->get('environment', 'airbrake') : CRAFT_ENVIRONMENT;
 		
 		
 		// Init Airbrake
